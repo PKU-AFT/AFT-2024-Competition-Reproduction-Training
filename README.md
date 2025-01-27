@@ -2,8 +2,6 @@
 
 ## 🌟 北大金融科技社团 2024 内培项目 - Optiver 赛题研究
 
-[简体中文](#) | [English](./README_EN.md)
-
 ---
 
 ### 项目简介
@@ -17,7 +15,6 @@
 
 ### 文件结构
 
-```html
 <pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold">Project Structure</span>
 ├── <span style="color: #000080; text-decoration-color: #000080">AFT-EDA</span>
 │   ├── <span style="color: #008000; text-decoration-color: #008000">兰杨_EDA_baseline.ipynb</span>
@@ -88,7 +85,6 @@
 │   └── <span style="color: #008000; text-decoration-color: #008000">tcn-model.ipynb</span>
 └── <span style="color: #800000; text-decoration-color: #800000">2024AFT内培-比赛复现组.pptx</span>
 </pre>
-```
 
 ---
 
