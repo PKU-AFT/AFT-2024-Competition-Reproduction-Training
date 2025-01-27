@@ -1,0 +1,23 @@
+data:
+  data_path: "data_for_model.pkl"  # 原代码中使用 'data_for_model.pkl'
+  drop_columns: ["row_id", "seconds_in_bucket", "date_id", "__index_level_0__"]
+  target_col: "target"
+
+model:
+  d_feat: 124
+  d_model: 256
+  t_nhead: 4
+  s_nhead: 2
+  dropout: 0.5
+  n_epoch: 40
+  lr: 8e-6
+  GPU: 0
+  seed: 0
+  universe: "optiver"
+  save_path: "model/"
+  save_prefix: "optiver"
+
+train:
+  # 此处可放更多与训练相关的参数，比如 early_stop, batch_size 等
+  # 也可以保留空或在后续扩充
+  pass

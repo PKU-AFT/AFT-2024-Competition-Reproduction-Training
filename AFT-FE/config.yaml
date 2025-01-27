@@ -1,0 +1,29 @@
+data_paths:
+  pca_label: data/pca_label.parquet
+  pca_decomposition: data/pca_decomposition.parquet
+  time_data: data/time_data.parquet
+  merged_data: data/merged_data.parquet
+  output_files:
+    scaler: pkl_files/scaler_new.pkl
+    pca: pkl_files/pca_new.pkl
+    lasso: pkl_files/lasso.pkl
+    pipeline: pkl_files/test_pipeline.pkl
+    data_for_model: data/data_for_model.parquet
+    selected_features: data/selected_features.txt
+    final_features: data/final_features.txt
+    
+
+pca:
+  n_components: 116
+
+lasso:
+  alpha: 0.1
+  random_state: 3
+  cv_folds: 5
+
+imputer:
+  strategy: mean
+
+scaler:
+  with_mean: True
+  with_std: True

@@ -1,0 +1,20 @@
+model:
+  d_feat: 6
+  hidden_size: 64
+  num_layers: 2
+  dropout: 0.0
+  base_model: "GRU"
+
+train:
+  n_epochs: 20
+  lr: 0.001
+  save_path: "./"
+  save_prefix: "gat_master_"
+  seed: 42
+
+data:
+  # 以下仅做示例，你可自行决定如何组织数据
+  step_len: 10
+  start_time: 0
+  end_time: 1000
+

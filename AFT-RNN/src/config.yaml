@@ -1,0 +1,20 @@
+data:
+  data_path: "data_for_model.pkl"  # 与之前相同，只是示例
+  drop_columns: ["row_id", "seconds_in_bucket", "date_id", "__index_level_0__"]
+  target_col: "target"
+
+model:
+  model_type: "LSTM"     # 可选: "RNN" / "LSTM"
+  hidden_size: 64
+  num_layers: 2
+  dropout: 0.5
+  n_epoch: 10
+  lr: 1e-3
+  GPU: 0
+  seed: 42
+  save_path: "model/"
+  save_prefix: "rnn_"
+
+train:
+  # 保留空或在此放置其他训练超参数
+  pass

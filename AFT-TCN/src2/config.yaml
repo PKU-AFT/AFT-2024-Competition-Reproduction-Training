@@ -1,0 +1,20 @@
+# config.yaml
+
+hyperparams:
+  BATCH_SIZE: 512
+  TCN_UNITS: 128
+  DENSE_HIDDEN_UNITS: 256   # 等价于 2 * TCN_UNITS
+  EPOCHS: 20
+  MAX_LEN: 220
+  NUM_MODELS: 1
+
+model:
+  loss_weight: 1.0  # 主任务loss的权重（示例）
+  # 其他模型相关的参数可补充
+
+paths:
+  train_data_path: "train_data.pkl"  # 示例，不一定需要
+  valid_data_path: "valid_data.pkl"
+  # 或者你的实际路径
+
+# 如果有更多配置，可以继续往这里加

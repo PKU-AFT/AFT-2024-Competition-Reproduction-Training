@@ -1,0 +1,34 @@
+data:
+  parquet_path: "/kaggle/input/phbs-data-for-model/data_for_model.parquet" 
+  drop_columns: ["row_id", "seconds_in_bucket", "date_id", "__index_level_0__"]
+  feature_dim: 124
+  step_len: 10
+  split_ratio: 0.8
+
+train:
+  n_epochs: 100
+  lr: 0.001
+  num_channels: [32, 64, 128]
+  kernel_size: 2
+  dropout: 0.2
+  output_size: 1
+  seed: 42
+  save_path: "/kaggle/working/"
+  save_prefix: "master_"
+
+optuna:
+  n_trials: 10
+  lr_min: 1e-5
+  lr_max: 1e-2
+  batch_size_min: 16
+  batch_size_max: 128
+  batch_size_step: 32
+  channel_0_min: 16
+  channel_0_max: 64
+  channel_0_step: 16
+  channel_1_min: 32
+  channel_1_max: 128
+  channel_1_step: 32
+  channel_2_min: 64
+  channel_2_max: 256
+  channel_2_step: 64
