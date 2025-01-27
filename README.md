@@ -123,10 +123,10 @@
 1. 克隆本项目到本地：
 
    ```bash
-   git clone https://github.com/your_repo_name.git
+   git clone https://github.com/PKU-AFT/AFT-2024-Competition-Reproduction-Training.git
    ```
 
-2. 安装依赖：
+2. 安装依赖(尚未统一)：
 
    ```bash
    pip install -r requirements.txt
@@ -217,10 +217,10 @@ Feel free to submit your PRs or reach out to the project maintainers if you have
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_repo_name.git
+   git clone https://github.com/PKU-AFT/AFT-2024-Competition-Reproduction-Training.git
    ```
 
-2. Install dependencies:
+2. Install dependencies(TODO):
 
    ```bash
    pip install -r requirements.txt
