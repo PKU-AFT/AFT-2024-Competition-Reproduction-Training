@@ -138,7 +138,7 @@
 
 ### 联系我们 📧
 
-如有问题或建议，请通过社团官方邮箱联系我们：**pku_aft@163.com**
+如有问题或建议，请通过社团官方邮箱联系我们：**pku_aft@163.com** **runnan@stu.pku.edu.cn**
 
 期待你的加入，一起探索金融科技的更多可能！🚀
 
@@ -232,6 +232,6 @@ Feel free to submit your PRs or reach out to the project maintainers if you have
 
 ### Contact Us 📧
 
-For inquiries or suggestions, feel free to reach out via our official email: pku_aft@163.com
+For inquiries or suggestions, feel free to reach out via our official email: pku_aft@163.com runnan@stu.pku.edu.cn
 
 Let’s explore the endless possibilities of FinTech together! 🚀
